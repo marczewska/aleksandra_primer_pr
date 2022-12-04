@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    padding: 4em;
+    }
+
+.title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 3em;
+    
+    justify-content: center;
+}
+.logo {
+    justify-self: left;
+    background-color: aquamarine;
+}
+
+.buttons {
+    justify-self: flex-end;
+    background-color: blueviolet;
+}
+
+.app {
+    background-color: pink;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: right;
+}
+
+.main-container {
+    display: flex
+}
+
+.images {
+    width: 300px;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+    
+}
+
+.side-menu {
+    width: 70em;
+}
+
+.text {
+    padding: 2em;
+    text-align: justify;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
