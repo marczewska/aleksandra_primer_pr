@@ -1,7 +1,11 @@
+* {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
-    background-color: pink;
     padding: 4em;
     }
 
@@ -13,9 +17,12 @@
 }
 .logo {
     justify-self: left;
-    background-color: aquamarine;
+    width: 100px;
 }
-
+.top-menu {
+    display: flex;
+    justify-content: space-around;
+}
 .buttons {
     justify-self: flex-end;
     background-color: blueviolet;
@@ -27,7 +34,8 @@
 
 .top-menu {
     display: flex;
-    justify-content: right;
+    justify-content: space-around;
+    padding-left: 8em;
 }
 
 .main-container {
@@ -45,11 +53,12 @@
 }
 
 .side-menu {
-    width: 70em;
+    width: 80em;
+    jus
 }
 
 .text {
-    padding: 2em;
+    padding: 0em 1em;
     text-align: justify;
 }
 
